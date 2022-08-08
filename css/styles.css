@@ -12,3 +12,47 @@
     --clr-bg-light: #3b3b3b;
     --clr-accent: #ff7600;
   }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.menu--item {
+    text-decoration: none;
+    color: var(--clr-text);
+}
+
+body {
+    background-color: var(--clr-bg-dark);
+    font-family: sans-serif;   
+    margin: 2rem; 
+}
+
+.title {
+    color: var(--clr-accent);
+    font-size: clamp(2rem, 5vw, 11rem);
+}
+
+.location {
+    color: var(--clr-text);
+    font-size: clamp(1rem, 3vw, 5rem);
+}
+
+.description {
+    color: var(--clr-text);
+    font-size: clamp(1rem, 4vw, 5rem);
+    line-height: 1.5em;
+}
+
+.primary-image,
+.secondary-image {
+    width: 100%;
+}
